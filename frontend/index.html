@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>PayMe</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" async defer>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body>
+  <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+  <div class="app-view view--full hidden" id="js-app-view">
+    <div class="search-wrapper pos--relative">
+      <div class="search-img-overlay pos--absolute"></div>
+      <h1 class="search-text pos--relative">What are you looking for?</h1>
+      <input class="search-box pos--relative" type="text" placeholder="Seach for food, pharmacy etc" />
+    </div>
+    <div class="payment-wrapper">
+      <h1 class="sub-text">Payment Utilities</h1>
+      <ul class="tile-wrapper">
+        <li class="tile-box tile--first pos--relative" data-pname="PhonePe" style="background: #ACA2D7">
+          <img class="tile-img tile--short" src="img/phonepe_logo.png" />
+        </li>
+        <li class="tile-box pos--relative" data-pname="PayTm" style="background: #B7E4F9">
+          <img class="tile-img" src="img/Paytm_logo.png" />
+        </li>
+        <li class="tile-box tile--last pos--relative" data-pname="Mobikwik" style="background: #8CCFD0">
+          <img class="tile-img" src="img/MobiKwik-Logo.png" />
+        </li>
+      </ul>
+    </div>
+    <div class="poi-wrapper">
+      <h1 class="sub-text">Places of Interest</h1>
+      <ul class="icon-wrapper">
+        <li class="icon-box" data-poiname="T">
+          <img class="icon" src="img/001-taxi.svg" />
+          <span class="icon-text">Taxi</span>
+        </li>
+        <li class="icon-box" data-poiname="P">
+          <img class="icon" src="img/002-hotel-1.svg" />
+          <span class="icon-text">Hospital</span>
+        </li>
+        <li class="icon-box" data-poiname="R">
+          <img class="icon" src="img/008-salad.svg" />
+          <span class="icon-text">Food</span>
+        </li>
+        <li class="icon-box" data-poiname="AS">
+          <img class="icon" src="img/007-store.svg" />
+          <span class="icon-text">Apparel</span>
+        </li>
+        <li class="icon-box" data-poiname="SM">
+          <img class="icon" src="img/006-grocery.svg" />
+          <span class="icon-text">Grocery</span>
+        </li>
+        <li class="icon-box" data-poiname="SS">
+          <img class="icon" src="img/005-perfume.svg" />
+          <span class="icon-text">Spa</span>
+        </li>
+        <li class="icon-box" data-poiname="M">
+          <img class="icon" src="img/004-film-reel.svg" />
+          <span class="icon-text">Movie</span>
+        </li>
+        <li class="icon-box" data-poiname="H">
+          <img class="icon" src="img/003-hotel.svg" />
+          <span class="icon-text">Hotel</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="map-view view--full hidden" id="js-map-view">
+    <div id="map"></div>
+    <div class="card-wrapper" id="js-card-wrapper">
+    </div>
+  </div>
+
+  <div class="app-footer">
+    <ul class="footer-icon-wrapper">
+      <li class="icon-footer" id="js-icon-add">
+        <img class="" src="img/add-icon.svg" />
+      </li>
+    </ul>
+  </div>
+
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCsjWmiQ1liwIhJc1jI2wJfGkk-57z47Lk">
+  </script>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
