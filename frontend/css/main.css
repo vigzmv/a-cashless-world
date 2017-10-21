@@ -1,4 +1,68 @@
-html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
+html,
+body,
+body div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -8,7 +72,11 @@ html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquot
   background: transparent;
 }
 
-* { margin:0; padding:0; box-sizing:border-box; }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
   height: 100vh;
@@ -17,14 +85,14 @@ body {
 }
 
 .app-view {
-  background: #F4F4F4;
+  background: #f4f4f4;
 }
 
 .search-wrapper {
   width: 100%;
   height: 30%;
   text-align: center;
-  padding: 16% ;
+  padding: 16%;
   background: url('../img/search-wall.jpg');
   background-size: cover;
 }
@@ -35,7 +103,7 @@ body {
   top: 0;
   left: 0;
   background: #000;
-  opacity: 0.3;  
+  opacity: 0.3;
 }
 
 .search-text {
@@ -111,7 +179,7 @@ body {
   left: 0;
   width: 15%;
   height: 100%;
-  background: #64FF87;
+  background: #64ff87;
 }
 
 .tile-img {
@@ -172,7 +240,7 @@ body {
   padding: 8px;
   min-height: 50%;
   text-align: center;
-  background: #F4F4F4;
+  background: #f4f4f4;
 }
 
 .card-box {
@@ -182,7 +250,7 @@ body {
   height: 110px;
   overflow: hidden;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-  margin-bottom: 8px;  
+  margin-bottom: 8px;
 }
 
 .card-box.card-box--last {
@@ -196,7 +264,7 @@ body {
 
 .card-head {
   font-weight: 400;
-  color: #7A7A7A;
+  color: #7a7a7a;
   opacity: 0.9;
   font-size: 14px;
 }
@@ -204,7 +272,7 @@ body {
 .card-desc {
   font-size: 12px;
   margin: 4px 0;
-  color: #A0A0A0;
+  color: #a0a0a0;
   opacity: 0.8;
 }
 
@@ -224,11 +292,11 @@ body {
 }
 
 .fa-star.checked {
-  color: #DB7A34;
+  color: #db7a34;
 }
 
 .card-dist {
-  color: #A0A0A0;
+  color: #a0a0a0;
   opacity: 0.8;
 }
 
@@ -245,7 +313,7 @@ body {
 
 .card-error {
   font-size: 14px;
-  color: #7A7A7A;
+  color: #7a7a7a;
   margin: 55px;
   line-height: 20px;
 }
@@ -253,7 +321,7 @@ body {
 .app-footer {
   width: 100%;
   height: 60px;
-  background: #FF3C3C;
+  background: #ff3c3c;
   padding: 4px;
   position: fixed;
   bottom: 0;
@@ -274,7 +342,7 @@ body {
   left: calc(50% - 30px);
   width: 60px;
   height: 60px;
-  background: #FF5E5E;
+  background: #ff5e5e;
   border-radius: 50%;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
   align-items: center;
