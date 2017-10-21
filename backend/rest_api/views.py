@@ -34,7 +34,8 @@ class GetStores(APIView):
         if store_type:
             _stores_all = _stores_all.filter(store_type__in=store_type)
         if payment_type:
-            _stores_all = _stores_all.filter(payment_types__payment_type__in=payment_type).distinct()
+            _stores_all = _stores_all.filter(
+                payment_types__payment_type__in=payment_type).distinct()
 
         # radius = float(radius) / 1000.0
         #
